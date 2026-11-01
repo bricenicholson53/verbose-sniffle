@@ -3,6 +3,7 @@ name = "conto"
 python_version = "3.11"
 docker_base_image_url = "debian:bookworm-slim"
 disable_auth = true
+deployment_initialization_timeout = 7200
 include = ['./*', 'main.py', 'cerebrium.toml']
 exclude = ['.*']
 
