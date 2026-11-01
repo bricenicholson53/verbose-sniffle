@@ -14,6 +14,7 @@ provider = "crusoe"
 region = "us-east-1"
 
 [cerebrium.scaling]
+compute_tier = "protected"
 min_replicas = 3
 max_replicas = 3
 cooldown = 10
